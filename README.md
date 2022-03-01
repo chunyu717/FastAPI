@@ -1,8 +1,6 @@
-
+# 
 $docker build . -t fastapi
-$docker run --restart=always --name fastapiName -d -p 5000:5000 fastapi
-
-
+$docker run --restart=always --name fastapiName -d -p 5000:5000 
 
 python/pipenv command 
 ---
